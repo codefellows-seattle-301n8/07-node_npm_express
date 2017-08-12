@@ -1,0 +1,23 @@
+{
+  "name": "07-lab",
+  "version": "1.0.0",
+  "description": "Lab 7 description pending.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krichey15/07-node_npm_express.git"
+  },
+  "author": "Kyle-Cole",
+  "license": "MIT",
+  "dependencies":{
+    "express": "^4.15.4",
+    "body-parser": "^1.17.2"
+  },
+  "bugs": {
+    "url": "https://github.com/krichey15/07-node_npm_express/issues"
+  },
+  "homepage": "https://github.com/krichey15/07-node_npm_express#readme"
+}
