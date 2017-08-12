@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Rickfoust21/07-node_npm_express#readme",
   "dependencies": {
+    "body-parser": "^1.17.2",
     "express": "^4.15.4"
   }
 }
