@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/goozgooz/07-node_npm_express/issues"
   },
-  "homepage": "https://github.com/goozgooz/07-node_npm_express#readme"
+  "homepage": "https://github.com/goozgooz/07-node_npm_express#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
 }
