@@ -7,6 +7,7 @@
 // There is also a package here called body-parser, which is required in for use in a new route.
 // Be sure to install that and save it as a dependency after you create your package.json.
 const bodyParser = require('body-parser').urlencoded({extended: true});
+const express = require('express');
 const PORT = process.env.PORT || 3000;
 
 // TODO: Include all of the static resources as an argument to app.use()
