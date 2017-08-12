@@ -9,6 +9,7 @@
 const bodyParser = require('body-parser').urlencoded({extended: true});
 const express = require('express');
 const PORT = process.env.PORT || 3000;
+const app = express();
 
 // TODO: Include all of the static resources as an argument to app.use()
 app.use(express.static('./public'))
@@ -25,4 +26,5 @@ app.post('/articles', bodyParser, function(request, response) {
 
 app.listen(PORT, function() {
   // TODO: Log to the console a message that lets you know which port your server has started on
+  console.log('The port is ' + PORT);
 });
