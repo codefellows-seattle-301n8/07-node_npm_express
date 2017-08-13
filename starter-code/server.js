@@ -12,13 +12,14 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 
 // TODO: Include all of the static resources as an argument to app.use()
-app.use(bodyParser);
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
 app.use(express.static('./public'));
 
 // TODO: (STRETCH) Write a new route that will handle a request and send the new.html file back to the user
 app.get('/new', function(request, response) {
   console.log(request.body);
-  response.sendFile('new.html');  
+  response.sendFile('new.html', {root: './public/'});  
 });
 
 app.post('/articles', bodyParser, function(request, response) {
